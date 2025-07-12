@@ -6,7 +6,6 @@
   <title>BorufTech</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: Arial, sans-serif; line-height: 1.6; background: #f5f5f5; }
@@ -16,11 +15,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #1e1e2f;
+  background-color:rgb(150,100,0);
   color: white;
   position: sticky;
   top: 0;
   z-index: 999;
+  border-bottom: 1px solid white;
 }
 .navbar .logo {
   display: flex;
@@ -72,7 +72,7 @@
     position: absolute;
     top: 60px;
     right: 30px;
-    background-color: #2a2a3b;
+    background-color:rgb(150,100,0);
     flex-direction: column;
     width: 200px;
     padding: 20px;
@@ -89,16 +89,16 @@
 /* About Section */
 .about-section {
   padding: 60px 20px;
-  background: #fff;
+  background:rgb(150,100,0);
   text-align: center;
 }
 .about-content h2 {
   font-size: 2.2rem;
-  color: #333;
+  color:gold;
 }
 .about-content p {
   font-size: 1.1rem;
-  color: #666;
+  color:white;
   max-width: 700px;
   margin: 15px auto;
 }
@@ -127,7 +127,7 @@
 }
 
 .modal-content {
-  background-color: #fff;
+  background-color:rgb(150,100,0);
   margin: 8% auto;
   padding: 20px;
   border-radius: 10px;
@@ -140,23 +140,23 @@
 
 .modal-scroll {
   overflow-y: auto;
-  max-height: 300px;
+  max-height: 350px;
   padding-right: 10px;
 }
 
 .modal-content h3 {
   margin-top: 0;
-  color: #222;
+  color:gold;
 }
 
 .modal-content p {
-  color: #555;
+  color:white;
   font-size: 1rem;
   line-height: 1.6;
 }
 
 .close {
-  color: #aaa;
+  color:#D5FF00;
   position: absolute;
   right: 15px;
   top: 10px;
@@ -165,18 +165,18 @@
   cursor: pointer;
 }
 .close:hover {
-  color: #000;
+  color:gold;
 }
 
 .projects-section {
   padding: 60px 20px;
-  background: #f9f9f9;
+  background:rgb(150,100,0);
   text-align: center;
 }
 .projects-section h2 {
   font-size: 2.2rem;
   margin-bottom: 40px;
-  color: #222;
+  color:white;
 }
 .projects-container {
   display: grid;
@@ -184,9 +184,9 @@
   gap: 25px;
 }
 .project-card {
-  background: #fff;
+  background:rgb(150,100,0);
   border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0,0,0);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -205,7 +205,7 @@
 .project-info h3 {
   font-size: 1.3rem;
   margin-bottom: 5px;
-  color: #333;
+  color:white;
 }
 .project-info p {
   font-size: 0.95rem;
@@ -225,13 +225,13 @@
 }
 .services-section {
   padding: 60px 20px;
-  background: #f7f9fb;
+  background:rgb(150,100,0);
   text-align: center;
 }
 .services-section h2 {
   font-size: 2rem;
   margin-bottom: 30px;
-  color: #222;
+  color:white;
 }
 .services-container {
   display: flex;
@@ -240,29 +240,31 @@
   gap: 25px;
 }
 .service-card {
-  background: #fff;
+  background:rgb(150,100,0);
   border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 16px rgba(0,0,0);
   padding: 25px;
-  width: 270px;
+  width: 300px;
   text-align: center;
   transition: transform 0.3s ease;
 }
 .service-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
 }
+
 .service-card i {
   font-size: 2rem;
-  color: #007bff;
+  color:#ABEAEC;
   margin-bottom: 10px;
 }
 .service-card h3 {
   font-size: 1.3rem;
-  color: #333;
+  color:white;
 }
 .service-card p {
   font-size: 0.95rem;
-  color: #666;
+  color:black;
   margin: 10px 0 15px;
 }
 .service-card button {
@@ -288,10 +290,10 @@
   overflow-y: auto;
 }
 .modal-content {
-  background: white;
+  background:rgb(150,100,0);
   margin: 80px auto;
   padding: 30px;
-  border-radius: 10px;
+  
   width: 90%;
   max-width: 600px;
   position: relative;
@@ -300,7 +302,7 @@
   margin-top: 0;
 }
 .modal-content p {
-  color: #444;
+  color:white;
 }
 .close {
   position: absolute;
@@ -318,14 +320,14 @@
 }
 
 .testimonial-section {
-  background-color: #f8f9fa;
+  background-color:#1e1e2f;
   padding: 60px 20px;
   text-align: center;
 }
 .testimonial-section h2 {
   font-size: 2.2rem;
   margin-bottom: 30px;
-  color: #333;
+  color:yellow;
 }
 
 .testimonial-slider {
@@ -339,9 +341,9 @@
   flex: 0 0 100%;
   max-width: 100%;
   padding: 20px;
-  background: #fff;
+  background:rgb(150,100,0);
   border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 25px rgba(0,0,0,0);
   transition: transform 0.3s ease;
 }
 .testimonial-item img {
@@ -353,7 +355,7 @@
 }
 .testimonial-item blockquote {
   font-style: italic;
-  color: #555;
+  color:white;
   margin: 0 auto 10px;
   max-width: 500px;
 }
@@ -373,10 +375,15 @@
     max-width: 100%;
   }
 }
-.footer { background: #0a2a43; color: white; padding: 2rem; text-align: center; }
+.footer {
+	background:#1e1e2f; 
+	color: white;
+	padding: 2rem;
+	text-align: center; 
+}
 .footer a { color: #eee; text-decoration: none; margin: 0 0.5rem; display: inline-block; }
 .quick-links-section {
-  background:#0a2a43;
+  background:#1e1e2f;
   padding: 30px 10px;
   text-align: center;
 }
@@ -384,7 +391,7 @@
 .quick-links-section h3 {
   font-size: 1.6rem;
   margin-bottom: 20px;
-  color:white;
+  color:#FFFE00;
 }
 
 .quick-links {
@@ -400,7 +407,7 @@
 
 .quick-links a {
   text-decoration: none;
-  color: #FC00F8;
+  color:white;
   font-size: 1.1rem;
   display: flex;
   align-items: center;
@@ -429,13 +436,13 @@
 }
 .social-section {
 	width: 100%;
-	background: #0a2a43;
+	background:#1e1e2f;
 }
 
 .social-section h3 {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color:white;
+  color:#FFFE00;
 }
 
 .social-icons {
@@ -494,15 +501,15 @@
     font-size: 18px;
   }
 }
-.to-top { position: fixed; bottom: 20px; right: 20px; background: #0a2a43; color: white; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer; }
+.to-top { position: fixed; bottom: 20px; right: 20px; background:#1e1e2f; color: white; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer; }
 
   </style>
 </head>
 <body>
  <header class="navbar">
   <div class="logo">
-    <img src="logo.png" alt="BorufTech Logo">
-    <h1>BorufTech</h1>
+    <img src="newL.png" alt="BorufTech Logo">
+    <h1>Boruf-Tech</h1>
   </div>
   <nav>
     <ul class="nav-links" id="navLinks">
@@ -704,8 +711,10 @@
   </div>
 </section>
   <footer class="footer">
-    <img src="logo.png" alt="Logo" width="50"><p>Mul’ata Keessan Milkeessin</p>
+  <img src="newL.png" alt="Logo" width="50">
+  <p>Yes We Can! everything is done.</p>
  <section class="quick-links-section">
+ 	<marquee style="color:#63C9FF;" direction="left">designed & developed by: BorufTech team experts!</marquee>
   <h3>Services</h3>
   <ul class="quick-links">
     <li><a href="#web-development"><i class="fas fa-code"></i> Web Development</a></li>
@@ -720,8 +729,8 @@
   <div class="social-icons">
     <a href="https://facebook.com" target="_blank" class="facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
     <a href="https://youtube.com" target="_blank" class="youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
-    <a href="mailto:info@boruftech.com" class="gmail" title="Gmail"><i class="fas fa-envelope"></i></a>
-    <a href="tel:+251900000000" class="phone" title="Call Us"><i class="fas fa-phone"></i></a>
+    <a href="mailto:aliyiabdulla12@gmail.com" class="gmail" title="Gmail"><i class="fas fa-envelope"></i></a>
+    <a href="tel:+251915186926" class="phone" title="Call Us"><i class="fas fa-phone"></i></a>
   </div>
 </section>
     <p>&copy; 2025 BorufTech. All rights reserved.</p>
